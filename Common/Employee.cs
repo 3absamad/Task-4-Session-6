@@ -28,7 +28,7 @@ namespace Common
             get;
             set
             {
-                _gender = value == 'M' || value == 'F' ? value : 'M';
+                _gender = value == 'M' || value == 'F' ? value : default;
             }
         }
         public Employee()
